@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Api\\Leo.Guided.Buy.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Api\\Leo.Guided.Buy.Api.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Api\\Leo.Guided.Buy.Api.csproj",
+        "projectName": "Leo.Guided.Buy.Api",
+        "projectPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Api\\Leo.Guided.Buy.Api.csproj",
+        "packagesPath": "C:\\Users\\Chendrasekhar.Kovi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chendrasekhar.Kovi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gepdev.pkgs.visualstudio.com/_packaging/GEPPackages/nuget/v3/index.json": {},
+          "https://scmdevops.pkgs.visualstudio.com/NugetPackages/_packaging/ScmFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Service\\Leo.Guided.Buy.Service.csproj": {
+                "projectPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Service\\Leo.Guided.Buy.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "JetBrains.dotCover.CommandLineTools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2021.2.0-eap05, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MiniProfiler.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Core\\Leo.Guided.Buy.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Core\\Leo.Guided.Buy.Core.csproj",
+        "projectName": "Leo.Guided.Buy.Core",
+        "projectPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Core\\Leo.Guided.Buy.Core.csproj",
+        "packagesPath": "C:\\Users\\Chendrasekhar.Kovi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chendrasekhar.Kovi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gepdev.pkgs.visualstudio.com/_packaging/GEPPackages/nuget/v3/index.json": {},
+          "https://scmdevops.pkgs.visualstudio.com/NugetPackages/_packaging/ScmFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "JetBrains.dotCover.CommandLineTools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2021.2.0-eap05, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.DataAccess\\Leo.Guided.Buy.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.DataAccess\\Leo.Guided.Buy.DataAccess.csproj",
+        "projectName": "Leo.Guided.Buy.DataAccess",
+        "projectPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.DataAccess\\Leo.Guided.Buy.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Chendrasekhar.Kovi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chendrasekhar.Kovi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gepdev.pkgs.visualstudio.com/_packaging/GEPPackages/nuget/v3/index.json": {},
+          "https://scmdevops.pkgs.visualstudio.com/NugetPackages/_packaging/ScmFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Core\\Leo.Guided.Buy.Core.csproj": {
+                "projectPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Core\\Leo.Guided.Buy.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "JetBrains.dotCover.CommandLineTools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2021.2.0-eap05, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "dm.lib.azuresqlstorage.nuget": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "dm.lib.infrastructure.nuget": {
+              "target": "Package",
+              "version": "[4.0.21, )"
+            },
+            "leo.eventhandler.nuget": {
+              "target": "Package",
+              "version": "[1.0.13, )"
+            },
+            "leo.storage.nosql.client": {
+              "target": "Package",
+              "version": "[3.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Service\\Leo.Guided.Buy.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Service\\Leo.Guided.Buy.Service.csproj",
+        "projectName": "Leo.Guided.Buy.Service",
+        "projectPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Service\\Leo.Guided.Buy.Service.csproj",
+        "packagesPath": "C:\\Users\\Chendrasekhar.Kovi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chendrasekhar.Kovi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gepdev.pkgs.visualstudio.com/_packaging/GEPPackages/nuget/v3/index.json": {},
+          "https://scmdevops.pkgs.visualstudio.com/NugetPackages/_packaging/ScmFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.DataAccess\\Leo.Guided.Buy.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Chendrasekhar.Kovi\\source\\repos\\Guided Buying\\API\\leo.guided.buy.api\\Leo.Guided.Buy.API\\Leo.Guided.Buy.DataAccess\\Leo.Guided.Buy.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "JetBrains.dotCover.CommandLineTools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2021.2.0-eap05, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
